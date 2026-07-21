@@ -17,7 +17,7 @@ languages:
   es-419:
     disabled: true
   fr:
-    disabled: true
+    disabled: false
   ja:
     disabled: false
   es-ES:
