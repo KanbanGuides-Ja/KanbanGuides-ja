@@ -58,7 +58,7 @@ _L'utilisation de police en italique fait référence à la notice Creative Co
 
 ## Définition de Kanban dans le Contexte du Travail de la Connaissance 
 
-Kanban est une stratégie pour optimiser le _Flux_ de _Valeur_ à travers un _système_.C'est un système de visualisation pour demander du Travail ou de l'inventaire. Il comprend les trois pratiques suivantes qui fonctionnent de concert :
+Kanban est une stratégie pour optimiser le _Flux_ de _Valeur_ à travers un _système_. C'est un système de visualisation pour demander du Travail ou de l'inventaire. Il comprend les trois pratiques suivantes qui fonctionnent de concert :
 
 - Définir et _Visualiser_ un flux de travail.
 - Gérer activement les _Éléments_ dans un flux de travail.
@@ -107,7 +107,7 @@ L'ordre dans lequel ces éléments sont implémentés n'est pas important tant q
 
 Les membres du système Kanban vont souvent avoir besoin de plus d'une _Définition du Flux de Travail_. Ces multiples _Définitions du Flux de Travail_ pourraient correspondre à plusieurs groupes de membres du système Kanban, différents niveaux de l'organisation,etc. Bien que ce guide ne prescrive pas de nombre minimum ou maximum de _Définitions du Flux de Travail_, il encourage l'établissement d'une _Définition du Flux de Travail_ partout où les membres du système Kanban ont besoin de connecter le _Flux_ à la _Valeur_. 
 
-_L'activation du Flux est l'acte de favoriser un système fluide et équilibré pour créer de la Valeur. La Définition du Flux de Travail devrait garantir que le système est équilibré pour optimiser le Flux de Valeur.Les membres du système Kanban y parviennent en améliorant la façon dont ils valident que la Valeur a été livrée, et en éliminant le Travail qui ne génère pas de Valeur._
+_L'activation du Flux est l'acte de favoriser un système fluide et équilibré pour créer de la Valeur. La Définition du Flux de Travail devrait garantir que le système est équilibré pour optimiser le Flux de Valeur. Les membres du système Kanban y parviennent en améliorant la façon dont ils valident que la Valeur a été livrée, et en éliminant le Travail qui ne génère pas de Valeur._
 
 La _Visualisation_ d'une _ou de plusieurs_ _Définitions du Flux de Travail_ est _définie_ sous le terme de _tableau Kanban_. Il n'y a pas de directives spécifiques quant à l'apparence d'une _Visualisation_. Une attention particulière devrait être accordée à tous les aspects de la _Définition du Flux de Travail_ (par exemple, les _Éléments de Travail_, les politiques) ainsi qu'à tout autre facteur spécifique au contexte qui pourrait affecter la manière dont la Valeur _circule_. 
 
@@ -141,7 +141,8 @@ _Idéalement, le Travail devrait entrer dans le système Kanban guidé par d
 - _Les membres du système Kanban devraient « commencer » le Travail lorsqu'ils sont prêts à y travailler, en introduisant de nouveaux Travaux en fonction de la façon dont ils sont priorisés._
 - _Les membres du système Kanban -- et d'autres personnes extérieures au système Kanban -- devraient explicitement empêcher que le Travail ne soit poussé vers les membres du système Kanban._
 - _Méfiez-vous de la re-priorisation du « Travail Commencé mais Non Terminé » (SNFW) ou du Travail en Cours (WIP), car cela provoque le vieillissement (l'inactivité) de ces Éléments et entraîne des Temps Écoulés de « Commencé » à « Terminé » plus longs ou moins prévisibles._
-- _Le redimensionnement (Rightsizing), une pratique optionnelle, mais recommandée, consiste à évaluer si les Éléments de Travail correspondent au Niveau de Service Attendu, ou sont trop grands pour le Niveau de Service Attendu et nécessitent donc une division en Éléments de Travail plus petits, mais apportant toujours une valeur potentielle._
+
+_Le redimensionnement (Rightsizing), une pratique optionnelle, mais recommandée, consiste à évaluer si les Éléments de Travail correspondent au Niveau de Service Attendu, ou sont trop grands pour le Niveau de Service Attendu et nécessitent donc une division en Éléments de Travail plus petits, mais apportant toujours une valeur potentielle._
 
 _Le redimensionnement (Rightsizing), dans un contexte de Travail de la Connaissance, est basé sur l'hypothèse que les Éléments de Travail doivent être à ou en dessous d'une taille maximale (selon les membres du système Kanban), mais ne doivent pas nécessairement être de la même taille. Si un Élément de Travail est si grand qu'il ne peut pas être terminé dans un délai raisonnable (par exemple, il enfreindrait le Niveau de Service Attendu), même après l'avoir commencé, les membres du système Kanban devraient envisager de le diviser en Éléments plus petits, qui ont chacun le potentiel de livrer de la Valeur. De même, les Éléments de Travail peuvent être fusionnés._
 
@@ -162,11 +163,11 @@ _Kanban favorise le changement évolutif, mais il n'interdit pas les changements
 - **Temps passé dans l'état bloqué d'un élément terminé (BETFI):** Le temps cumulé qu'un unique Élément de Travail « terminé » (ou une sélection d'Éléments « terminés ») a passé dans un état bloqué dans un flux qui va de « commencé» à « terminé », sans tenir compte des états de File d'attente ou de Tampon. \[mesure pour un seul Élément, métrique pour plusieurs Éléments\]
   
 >[!FOOTNOTE]
->La définition du flux de travail doit clairement définir tous les états de file d'attente et de tampon.
+>La Définition du flux de travail devrait inclure une politique pour définir les Bloqueurs (dans le contexte) et les signaler.
 
-- **_Temps passé dans des Files d'Attentes ou Tampons (CQBT)_** : _Le temps cumulé qu'un seul Élément de Travail « terminé » (ou une sélection d'Éléments « terminés ») a passé dans des Files d'attente ou des Tampons dans un flux qui va de « commencé » à « terminé ». \[mesure pour un seul Élément de Travail, métrique pour plusieurs _Éléments de Travail\]_ 
-- **_Temps Écoulé de « Commencé » à « Terminé » (ETSF)_** : Le nombre (généralement _arrondi à la valeur supérieure) d'unités de temps écoulé (souvent des jours calendaires) à partir_ du moment où un seul _Élément de Travail_ et passé du statut « _commencé_ » jusqu'au moment où un _Élément de Travail_ est arrivé au statut « _terminé_ ». _Seuls les Éléments « terminés » obtiennent des ETSF. \[ _mesure_\] 
-- **_Répartition du Flux_** : La Visualisation et l'analyse des types d'Éléments de Travail qui ont atteint le statut « terminé » ou « achevé » au fil du temps, permettant une gestion active qui assure un équilibre sain des efforts. \[métrique\] _
+- **_Temps passé dans des Files d'Attentes ou Tampons (CQBT)_** : Le temps cumulé qu'un seul Élément de Travail « terminé » (ou une sélection d'Éléments « terminés ») a passé dans des Files d'attente ou des Tampons dans un flux qui va de « commencé » à « terminé ». \[mesure pour un seul Élément de Travail, métrique pour plusieurs _Éléments de Travail\]_ 
+- **_Temps Écoulé de « Commencé » à « Terminé » (ETSF)_** : Nombre (généralement _arrondi à la valeur supérieure) d'unités de temps écoulées (souvent des jours calendaires) à partir_ du moment où un seul _Élément de Travail_ est passé du statut « _commencé_ » jusqu'au moment où il est arrivé au statut « _terminé_ ». Seuls les Élément de Travail « terminés » obtiennent des ETSF. \[ _mesure_\] 
+- **_Répartition du Flux_** : La Visualisation et l'analyse des types d'Éléments de Travail qui ont atteint le statut « terminé » ou « achevé » au fil du temps, permettant une gestion active qui assure un équilibre sain des efforts. \[métrique\] 
 
 > [!FOOTNOTE]
 > La définition du flux de travail doit clairement définir tous les états de file d'attente et de tampon.
@@ -175,8 +176,8 @@ _Kanban favorise le changement évolutif, mais il n'interdit pas les changements
 - **Nombre de Bloqueurs**: Le nombre d'obstacles, partiels ou complets, à un instant donné (généralement la date/heure actuelle), au Flux d'Éléments de Travail de « commencé » à « terminé ». \[mesure\]
 - **Efficacité du Cycle de Production:** Mesure de l'efficacité du Travail d'un système ou de ses parties. Elle est calculée en divisant le temps à Valeur ajoutée par le Délai de mise sur le marché (Time to Market T2M), puis en multipliant par 100 pour obtenir un pourcentage. Cela signifie que les membres du système Kanban doivent mesurer tout le temps à Valeur ajoutée et tout le temps sans Valeur ajoutée (y compris, mais sans s'y limiter, le temps d'attente). (( T2M-(CQBT+ autre temps non générateur de valeur)) / T2M) 100\. \[métrique\]
 - **_Niveau de Service Attendu:_** Une prévision du temps qu'un _Élément de Travail_ devrait prendre pour circuler de « _commencé_ » à « _terminé_ ». Le _Niveau de Service Attendu_ lui-même a deux parties : une période de temps écoulé et une probabilité associée à cette période (par exemple, « 85 % _des Éléments de Travail_ seront 'terminés' d'ici huit jours ou moins »). _Elle est basée sur une sélection du Temps Écoulé de « Commencé » à « Terminé » de tout l'historique, d'un sous-ensemble de l'historique, ou si les données n'existent pas ou sont insuffisantes, une estimation éclairée. \[métrique\]_
-- **Travail Commencé mais Non Terminé (SNFW)** ou **Travail en Cours (WIP)** _ou **Charge du Flux:**_: _Le_ nombre d'_Éléments de Travail_ « commencés», mais non « terminés ». _\[mesure\]_
-- **Débit (Throughput):** Le nombre d'_Éléments de Travail_ « terminés » par unité de temps. La mesure_ du _Débit est le nombre exact d'_Éléments de Travail_, _pas le revenu. \[métrique\]_
+- **Travail Commencé mais Non Terminé (SNFW)** ou **Travail en Cours (WIP)** _ou **Charge du Flux**: Le nombre d'Éléments de Travail_ « commencés», mais non « terminés ». _\[mesure\]_
+- **Débit (Throughput):** Le nombre d'_Éléments de Travail_ « terminés » par unité de temps. La mesure du débit est le nombre exact d'_Éléments de Travail_, _pas le revenu. \[métrique\]_
 
 - **Délai de mise sur le marché, également connu sous le nom de Délai de livraison au Client** (T2M) : Le nombre (généralement arrondi à la valeur supérieure) d'unités de temps écoulé (souvent des jours/semaines calendaires) à partir du moment où la commande d'une Partie Prenante pour un seul Élément de Travail a été reçue jusqu'au moment où l'Élément de Travail a été livré à la Partie Prenante. C'est un exemple de ETSF. \[mesure pour un seul Élément de Travail, métrique pour un produit ou un service\]
 - **Âge Total de l'Élément de Travail (TWIA)** ou **Temps Écoulé Total pour les Éléments « Commencés », mais non « Terminés » (TETSNFI):** Le temps écoulé total à partir du moment où tous les Éléments de Travail en cours (« commencés », mais non « terminés ») ont « commencé » jusqu'à une date/heure spécifiée, généralement la date/heure actuelle. \[métrique\] 
@@ -216,7 +217,7 @@ les points suivants :
 
 - **Délai de Valeur Validée, également connu sous le nom de Délai de Valeur ou Délai de Résultat** : Le _nombre arrondi à la valeur supérieure d'unités de temps écoulé (souvent des jours/semaines calendaires) à partir du moment où la commande d'un Partie Prenante pour un Élément de Travail a été reçue jusqu'au moment où la Valeur a été validée. C'est un exemple de ETSF axé sur des résultats ayant une valeur et qui soient mesurables. \[mesure\]_
 
-- **Valeur Validée:** Un Élément de Travail qui atteint le point « terminé » et livre la Valeur prévue à la Partie Prenante (y compris, mais sans s'y limiter, le client ou l'utilisateur), en respectant les politiques explicites, par exemple, les normes de qualité ou d'expérience. Comprend souvent des preuves et des observations._
+- **Valeur Validée:** Un Élément de Travail qui atteint le point « terminé » et livre la Valeur prévue à la Partie Prenante (y compris, mais sans s'y limiter, le client ou l'utilisateur), en respectant les politiques explicites, par exemple, les normes de qualité ou d'expérience. Comprend souvent des preuves et des observations.
 - **Valeur Invalidée:** Un Élément de Travail qui atteint le point « terminé » ou est évalué, mais ne parvient pas à livrer la Valeur prévue, ne répondant pas aux attentes définies dans la Définition du Flux de Travail, nécessitant souvent un travail supplémentaire ou un rejet, informé par des preuves et des observations. Considérez le contexte.
 
 _En mesurant ces types de résultats, d'impacts, de métriques de Valeur et de mesures de Valeur, les membres du système Kanban s'assurent qu'ils ne se contentent pas de livrer du Travail rapidement (outputs), mais qu'ils livrent une Valeur réelle et des améliorations (résultats et impacts) aux Parties Prenantes, y compris, mais sans s'y limiter, les clients et les utilisateurs._
@@ -267,7 +268,7 @@ _Il existe également des options non-Kanban facultatives, prises en charge par 
 
 ### Si les membres du système Kanban doivent prioriser un Élément de Travail à « commencer »
 
-_Voici quelques techniques non-Kanban facultatives que certaines, mais pas toutes les communautés, soutiennent :_
+_Voici quelques techniques non-Kanban facultatives que certaines communautés (mais pas toutes) soutiennent :_
 
 - **Classe de Service** (21) **:** Un archétype pour un ou une sélection d'Éléments de Travail, tels que standard, date fixe (réelle et donc non arbitraire), urgence, ou intangible. Le choix de la classe de service peut refléter la Valeur perçue, le Risque ou le Coût de Retarder (Cost of Delay). Elle est plus utile comme une entrée pour décider quel(s) Élément(s) « commencer » lorsque la capacité le permettra, plutôt que de reprioriser les Éléments de Travail en Cours (ce qui n'est pas bon pour le Flux). Peut surcharger le système Kanban lorsqu'il est mal appliqué, par exemple, une « voie express » pourrait éventuellement être supplantée par une « voie super-express », et les choses commencent alors à devenir ridicules. Peut aussi  déséquilibrer un Flux même lorsqu'il n'est pas mal appliqué.
 
@@ -302,7 +303,7 @@ _Voici quelques techniques non-Kanban facultatives que certaines, mais pas toute
 
 - **«Terminé » (ou « Achevée »):** Lorsque le chronomètre du Temps Écoulé de «Commencé» à «Terminé» s'arrête pour une paire «commencé» et «terminé» dans une Définition du Flux de Travail.
 
-- **Flux** (Flow) **:** Le mouvement (idéalement fluide) et la production et livraison d'Éléments de Travail à travers la Définition du Flux de Travail. Un système Kanban équilibré maintient le Débit. Dans un monde idéal, le Travail qui est entré dans le système (Travail de la Connaissance), coulerait comme une rivière, ne s'arrêtant jamais, trouvant le chemin de la moindre résistance jusqu'à atteindre le client. À ne pas confondre avec la Définition du Flux de Travail (DoW). [Dans Kanban, Flux \> utilisation]{.underline}.
+- **Flux** (Flow) **:** Le mouvement (idéalement fluide) et la production et livraison d'Éléments de Travail à travers la Définition du Flux de Travail. Un système Kanban équilibré maintient le Débit. Dans un monde idéal, le Travail qui est entré dans le système (Travail de la Connaissance), coulerait comme une rivière, ne s'arrêtant jamais, trouvant le chemin de la moindre résistance jusqu'à atteindre le client. À ne pas confondre avec la Définition du Flux de Travail (DoW). [Dans Kanban, Flux \> utilisation].
 
 - **kanban:** Un kanban (panneau en japonais) est un indice Visuel qui déclenche la sélection, le « démarrage » ou le déplacement d'un Élément de Travail. Rien ne devrait être produit ou déplacé sans un signal kanban.
 
@@ -343,6 +344,8 @@ _Voici quelques techniques non-Kanban facultatives que certaines, mais pas toute
 
 - **Élément de Travail:** Un Élément de Travail, également appelé Élément, contient le potentiel de Valeur. Divers termes peuvent être utilisés pour décrire les différents niveaux de granularité d'un Élément de Travail, tant qu'il a le potentiel de Valeur. Les Éléments de Travail qui n'ont pas le potentiel de Valeur pour les Parties Prenantes sont potentiellement source de gaspillage, par exemple, les gens se concentrent sur la « finition » de sous-tâches à travers plusieurs Éléments de Travail plutôt que de se concentrer sur « finir » un Élément à la fois. Le contrôle du « Travail Commencé mais Non Terminé » (SNFW) ou du Travail en Cours (WIP) pour les Éléments potentiellement source de gaspillage réduit souvent l'effort de collaboration et la concentration pour livrer la Valeur potentielle plus tôt. Considérez le contexte.
 
+- **Type d'Élément de Travail:** Une catégorisation pour un Élément de Travail. Les exemples incluent, mais sans s'y limiter,  les marques, les clients, les fonctionnalités, les bugs, le travail de projet, la recherche sur l'expérience utilisateur (UX), la recherche sur l'expérience client (CX), la conception centrée sur l'humain, le travail opérationnel, les énoncés de problèmes, les hypothèses, d'autres travaux de recherche et les expérimentations. Utile pour donner du sens. 
+
 - **Valeur Validée:** Valeur confirmée par des preuves ou des observations (idéalement les deux), formellement ou informellement, par les Parties Prenantes ; souvent après un ou plusieurs cycles de retour sur résultats (et de retouches), par des Parties Prenantes internes et externes. Tout le monde ne soutient pas cette proposition.
   
 - **Valeur:** Un bénéfice potentiel ou réalisé pour une Partie Prenante. Les exemples incluent la satisfaction des besoins du client, de l'utilisateur final, du décideur, de l'organisation et de l'environnement.
@@ -374,31 +377,32 @@ _Voici quelques techniques non-Kanban facultatives que certaines, mais pas toute
 | Travail Constant En Cours | CONWIP | Constant Work In Progress/Process |
 | Travail en cours | WIP | Work in Progress/Process |
 
+
 ## Références 
 Les références sont placées ici pour informer les lecteurs des opportunités d'études complémentaires. Elles ne soutiennent pas nécessairement le texte de ce guide :
 
-1.  Little, J. D. C. (1961). A proof for the queuing formula: L = λW. _Operations Research_, 9(3), 383--387. [[https://doi.org/10.1287/opre.9.3.383]{.underline}](https://doi.org/10.1287/opre.9.3.383)
+1.  Little, J. D. C. (1961). A proof for the queuing formula: L = λW. _Operations Research_, 9(3), 383--387. [[https://doi.org/10.1287/opre.9.3.383]](https://doi.org/10.1287/opre.9.3.383)
 2.  Deming, W. E. (1986). _Out of the crisis_. MIT Press. (Évalué par des pairs grâce à son adoption académique en gestion de la qualité.) 
 3.  Goldratt, E. M. (1990). _Theory of Constraints_. North River Press. (Évalué par des pairs grâce à son adoption académique en recherche opérationnelle.)  
 4.  Womack, J. P., & Jones, D. T. (1996). _Lean thinking: Banish waste and create wealth in your corporation_. Simon & Schuster. 
 5.  Ackoff, R. L. (1999). _Ackoff's Best: His Classic Writings on Management_. NY: John Wiley & Sons. 
-6.  Hopp, W. J. et Spearman, M. L. (2004) 'To pull or not to pull: what is the question?', _Manufacturing & Service Operations Management_, 6(2), pp. 133--148. [[https://doi.org/10.1287/msom.1030.0028]{.underline}](https://doi.org/10.1287/msom.1030.0028). 
+6.  Hopp, W. J. et Spearman, M. L. (2004) 'To pull or not to pull: what is the question?', _Manufacturing & Service Operations Management_, 6(2), pp. 133--148. [[https://doi.org/10.1287/msom.1030.0028]](https://doi.org/10.1287/msom.1030.0028). 
 7.  Reinertsen, D. G. (2009). _The Principles of Product Development Flow: Second Generation Lean Product Development_. Redondo Beach, CA: Celeritas Publishing 
 8.  Shewhart, W. A. (1931). _Economic Control of Quality of Manufactured Product_. NY: D. Van Nostrand Company. 
 9.  Ohno, T. (1988). _Toyota Production System: Beyond Large-Scale Production_. Portland, OR: Productivity Press.
 10. Juran, J. M. (1992). _Juran on Quality by Design: The New Steps for Planning Quality into Goods and Services_. New York: The Free Press. 
 11. Wheeler, D. J. (1993). _Understanding Variation: The Key to Managing Chaos_. Knoxville, TN: SPC Press. 
-12. Wikipedia (2025) 'Kanban (development)'. Disponible sur : [https://en.wikipedia.org/wiki/Kanban\_(development)](<https://en.wikipedia.org/wiki/Kanban_(development)>) (Accessed: 22 June 2025).\_
-13. _Kingman, J. F. C. (1961) ‘The single server queue in heavy traffic’, Mathematical Proceedings of the Cambridge Philosophical Society, 57(4), pp. 902–904. doi: 10.1017/S0305004100035783, and the stable URL is [https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37). _
-14. _Roser, C. (2018) ‘The Kingman Formula – Variation, Utilization, and Lead Time’, AllAboutLean.com, 2 March. Available at: [https://www.allaboutlean.com/kingman-formula/](https://www.allaboutlean.com/kingman-formula/) (Accessed: 22 June 2025\)_
-15. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience. NY: Harper & Row_
-16. _Tendon, S. and Müller, W. (2015). Hyper-Productive Knowledge Work Performance: The TameFlow Approach and Its Application to Scrum and Kanban. Plantation, FL: J. Ross Publishing._
-17. _Seddon, J. (2019). Failure demand | Vanguard. \[online\] Vanguard-method.net. Available at: [https://vanguard-method.net/library/systems-principles/failure-demand/](https://vanguard-method.net/library/systems-principles/failure-demand/) \[Accessed 22 Mar. 2019\]_
-18. Christensen, C.M., Hall, T., Dillon, K. and Duncan, D.S., 2016\. Know your customers' 'jobs to be done'. _Harvard Business Review_, 94(9), pp.54-62.
+12. Wikipedia (2025) _Kanban (development)_. Disponible sur : [https://en.wikipedia.org/wiki/Kanban\_(development)](<https://en.wikipedia.org/wiki/Kanban_(development)>) (Accessed: 22 June 2025).\_
+13. Kingman, J. F. C. (1961) _The single server queue in heavy traffic_, Mathematical Proceedings of the Cambridge Philosophical Society, 57(4), pp. 902–904. doi: 10.1017/S0305004100035783, and the stable URL is [https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37). 
+14. Roser, C. (2018) _‘The Kingman Formula – Variation, Utilization, and Lead Time’_, AllAboutLean.com, 2 March. Available at: [https://www.allaboutlean.com/kingman-formula/](https://www.allaboutlean.com/kingman-formula/) (Accessed: 22 June 2025\)
+15. Csíkszentmihályi, M. (1990) _Flow: The Psychology of Optimal Experience. NY: Harper & Row_
+16. Tendon, S. and Müller, W. (2015). _Hyper-Productive Knowledge Work Performance: The TameFlow Approach and Its Application to Scrum and Kanban._ Plantation, FL: J. Ross Publishing.
+17. Seddon, J. (2019). _Failure demand | Vanguard. \[online\] Vanguard-method.net._ Available at: [https://vanguard-method.net/library/systems-principles/failure-demand/](https://vanguard-method.net/library/systems-principles/failure-demand/) \[Accessed 22 Mar. 2019\]
+18. Christensen, C.M., Hall, T., Dillon, K. and Duncan, D.S., 2016\. '_Know your customers_' '_jobs to be done'_ Harvard Business Review, 94(9), pp.54-62.
 19. DeMarco, T. (2001). _Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency_. Broadway Books.
-20. Leopold, K. (2017) Little's law and system stability – an interview with Daniel Vacanti. Leanability. Available at: [https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability](https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability) \[Accessed 28 June 2025\].
-21. Kanban University (2021) The Official Guide to The Kanban Method \[Online\]. Available at: [https://kanban.university/new-to-kanban-get-the-official-guide-to-the-kanban-method/](https://kanban.university/new-to-kanban-get-the-official-guide-to-the-kanban-method/) (Accessed: 29 June 2025).
-22. _Gilb, T. (2005) Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage. Oxford: Elsevier Butterworth-Heinemann. Also available at: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)_
-23. Maassen, O., Matts, C. and Geary, C. (2013) Commitment: A novel about managing project risk. The Netherlands: Happy About.
-24. Vacanti, D. S. (2015) Actionable Agile Metrics for Predictability: An Introduction. United States: ActionableAgile Press.
-25. Vacanti, D. S. (2023) Actionable Agile Metrics for Predictability Volume II: Advanced Topics. United States: ActionableAgile Press.
+20. Leopold, K. (2017) _Little's law and system stability – an interview with Daniel Vacanti. Leanability._ Available at: [https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability](https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability) \[Accessed 28 June 2025\].
+21. Kanban University (2021) _The Official Guide to The Kanban Method \[Online\]._ Available at: [https://kanban.university/new-to-kanban-get-the-official-guide-to-the-kanban-method/](https://kanban.university/new-to-kanban-get-the-official-guide-to-the-kanban-method/) (Accessed: 29 June 2025).
+22. Gilb, T. (2005) _Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage._ Oxford: Elsevier Butterworth-Heinemann. Also available at: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)
+23. Maassen, O., Matts, C. and Geary, C. (2013) _Commitment: A novel about managing project risk._ The Netherlands: Happy About.
+24. Vacanti, D. S. (2015) _Actionable Agile Metrics for Predictability: An Introduction._ United States: ActionableAgile Press.
+25. Vacanti, D. S. (2023) _Actionable Agile Metrics for Predictability Volume II: Advanced Topics._ United States: ActionableAgile Press.
