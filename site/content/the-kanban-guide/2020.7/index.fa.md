@@ -16,5 +16,5 @@ pdf-engine: xelatex
 sitemap:
   priority: 0.6
 aliases:
-  - /fa/the-kanban-guide/2020.07/
+  - /the-kanban-guide/2020.07/
 ---

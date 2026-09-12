@@ -38,7 +38,7 @@ pdf-engine: xelatex
 sitemap:
   priority: 1.0
 aliases:
-  - /fa/open-guide-to-kanban/latest/
+  - /open-guide-to-kanban/latest/
 translators:
 - name: Pedram Keshavarzi
   githubUsername: pedicurus

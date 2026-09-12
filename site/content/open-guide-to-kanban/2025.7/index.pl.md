@@ -35,7 +35,7 @@ monofont: "Courier New"
 sitemap:
   priority: 1.0
 aliases:
-  - /pl/open-guide-to-kanban/latest/
+  - /open-guide-to-kanban/latest/
 ---
 
 Niniejsza praca, Open Guide to Kanban, stanowi adaptację [Kanban Guide (wersja z maja 2025)](https://kanbanguides.org/history/kanban-guide-2025/), która jest objęta licencją Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). Oryginalny przewodnik jest chroniony prawem autorskim © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. W stosunku do oryginału wprowadzono zmiany. Objęte licencją [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Fragmenty wyróżnione kursywą są chronione prawem autorskim © 2025_ Orderly Disruption Limited, objęte licencją CC BY-SA 4.0. Cała pozostała zawartość pochodzi z materiałów chronionych prawem autorskim © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., również objętych licencją CC BY-SA 4.0.

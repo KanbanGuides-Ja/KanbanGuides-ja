@@ -19,7 +19,7 @@ guide_whatis: |
 
    Ten przewodnik zawiera konwencje dotyczące niektórych terminów. Nie są one przeznaczone do zastąpienia innych istniejących definicji, lecz do wyjaśnienia sposobu ich zastosowania w tym dokumencie.
 aliases:
-  - /pl/the-kanban-guide/latest
+  - /the-kanban-guide/latest
 ---
 
 ## Przedmowa

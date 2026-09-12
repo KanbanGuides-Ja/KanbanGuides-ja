@@ -16,5 +16,5 @@ monofont: "Courier New"
 sitemap:
   priority: 0.6
 aliases:
-  - /fr/the-kanban-guide/2020.07/
+  - /the-kanban-guide/2020.07/
 ---

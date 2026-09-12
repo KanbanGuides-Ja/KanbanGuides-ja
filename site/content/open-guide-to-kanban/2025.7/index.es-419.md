@@ -31,7 +31,7 @@ mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 aliases:
-  - /es-419/open-guide-to-kanban/latest/
+  - /open-guide-to-kanban/latest/
 sitemap:
   priority: 1.0
 ---

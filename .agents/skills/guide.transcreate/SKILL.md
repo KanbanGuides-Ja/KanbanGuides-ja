@@ -99,7 +99,7 @@ These files are short and should be fully translated (both front matter and body
 
 For each: copy the file, translate all human-readable string values in front matter, translate the body text. Do NOT add a `lang:` field — Hugo v0.144.0+ removed it (language is determined from the file suffix). Remove any `content:` front matter key if present.
 
-⚠️ **Aliases**: If the English source contains an `aliases:` block, every alias path MUST be prefixed with `/{lang}/`. For example `/the-kanban-guide/latest` → `/{lang}/the-kanban-guide/latest`. Aliases without the language prefix will conflict with production English routes.
+⚠️ **Aliases**: If the English source contains an `aliases:` block, copy each alias **exactly as written in the English source** — do NOT add a `/{lang}/` prefix. Hugo already scopes an alias to the page's language, so `/the-kanban-guide/latest` in `index.{lang}.md` emits `/{lang}/the-kanban-guide/latest`. Adding the prefix by hand produces `/{lang}/{lang}/the-kanban-guide/latest` and leaves the intended URL a 404. Localize the alias *slug* where the language does so (French uses `/le-guide-kanban/derniere-version`), but never the language segment.
 
 ### 3e. Content files — Section roots (translate front matter only, body is empty)
 
@@ -112,7 +112,7 @@ These `_index.md` files contain only front matter (no body to translate):
 
 For each: copy the file, translate all human-readable string values (titles, descriptions, guide_whatis, guide_overview, guide_license, guide_comparison items, which_to_use_summary, layman_description, practitioner_description). Remove any `lang:` field if present — Hugo v0.144.0+ removed it. Keep `slug:`, `Type:`, `Layout:`, `brand:`, `weight:` unchanged.
 
-⚠️ **Aliases**: If the English source contains an `aliases:` block, every alias path MUST be prefixed with `/{lang}/`.
+⚠️ **Aliases**: Copy each alias exactly as written in the English source — do NOT add a `/{lang}/` prefix. Hugo adds the language segment itself; adding it by hand double-prefixes the URL.
 
 ### 3f. Content files — Versioned guides (translate front matter ONLY, leave body EMPTY)
 
@@ -140,7 +140,7 @@ Translate in front matter: `title`, `short_title` (if present), `description`, `
 
 Do NOT translate: `date`, `version`, `type`, `mainfont`, `sansfont`, `monofont`, `sitemap`, `author`, `forked_from`.
 
-⚠️ **Aliases**: Every alias path MUST be prefixed with `/{lang}/`. Copy each alias from the English source and prepend `/{lang}` to it. For example `/the-kanban-guide/latest` → `/{lang}/the-kanban-guide/latest`, `/open-guide-to-kanban/latest` → `/{lang}/open-guide-to-kanban/latest`. Aliases without the language prefix will conflict with production English routes and cause routing errors.
+⚠️ **Aliases**: Copy each alias from the English source **verbatim** — do NOT prepend `/{lang}`. Hugo scopes aliases per language, so `/the-kanban-guide/latest` in `index.{lang}.md` already emits at `/{lang}/the-kanban-guide/latest`, and the English route at `/the-kanban-guide/latest` is unaffected. Prepending the prefix yields `/{lang}/{lang}/the-kanban-guide/latest` and a 404 at the URL you wanted.
 
 Add a `translators:` block placeholder:
 ```yaml
@@ -158,7 +158,7 @@ After creating all files, verify:
 3. `site/i18n/{lang}.yaml` exists and has all keys from `en.yaml`
 4. All expected content files exist (list them)
 5. No versioned guide file has any body content
-6. Every `aliases:` entry in every translation file starts with `/{lang}/` — flag any that do not
+6. No `aliases:` entry in any translation file starts with `/{lang}/` — flag any that do, since Hugo adds that segment itself and the hand-written prefix double-applies it
 
 Report the results in a clear summary table with ✅ / ❌ status for each file.
 
