@@ -23,7 +23,7 @@ guide_whatis: |
   #  This guide has conventions for some terms. They are not meant to replace any other existing definitions but to clarify how they are intended to be applied here.
    本ガイドでは、いくつかの用語について特定の使い方を定めている。これらは既存の定義を置き換えることを意図したものではなく、本ガイドにおける用法を明確にするためのものである。
 aliases:
-  - /ja/the-kanban-guide/latest
+  - /the-kanban-guide/latest
 translators:
 - name: Tomoharu Nagasawa
   githubUsername: tomoharunagasawa
