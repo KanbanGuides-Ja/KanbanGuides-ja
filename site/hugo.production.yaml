@@ -5,7 +5,7 @@ printI18nWarnings: false
 minifyOutput: true
 languages:
   min:
-    disabled: true
+    disabled: false
   fa:
     disabled: false
   pl:
