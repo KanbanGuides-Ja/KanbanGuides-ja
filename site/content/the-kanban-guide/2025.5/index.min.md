@@ -13,9 +13,9 @@ author:
   - Danny Banana Vacanti
 
 type: guide
-mainfont: "Times New Banana"
-sansfont: "Ari-Banana"
-monofont: "Courier Peel"
+mainfont: "Times New Roman"
+sansfont: "Arial"
+monofont: "Courier New"
 
 sitemap:
   priority: 0.6
@@ -27,7 +27,7 @@ guide_whatis: |
   Dis booky got termy-term lingo. Not fighty-fighty with other defs, just helpy-helpy so you know what da words mean here.
 
 aliases:
-  - /min/the-kanban-guide/latest
+  - /the-kanban-guide/latest
 
 translators:
   - name: "John Coleman"
